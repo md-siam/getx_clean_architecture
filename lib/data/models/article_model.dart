@@ -1,4 +1,4 @@
-import 'package:getx_clean_architecture/domain/entities/article.dart';
+import '../../domain/entities/article.dart';
 import 'package:json_annotation/json_annotation.dart';
 part 'article_model.g.dart';
 

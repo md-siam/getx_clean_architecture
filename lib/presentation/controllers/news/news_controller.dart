@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
-import 'package:getx_clean_architecture/domain/entities/article.dart';
-import 'package:getx_clean_architecture/domain/entities/paging.dart';
-import 'package:getx_clean_architecture/domain/usecases/fetch_news_use_case.dart';
+import '../../../domain/entities/article.dart';
+import '../../../domain/entities/paging.dart';
+import '../../../domain/usecases/fetch_news_use_case.dart';
 import 'package:tuple/tuple.dart';
 
 class NewsController extends GetxController {

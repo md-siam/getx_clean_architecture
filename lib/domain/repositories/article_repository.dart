@@ -1,4 +1,4 @@
-import 'package:getx_clean_architecture/domain/entities/paging.dart';
+import '../entities/paging.dart';
 
 abstract class ArticleRepository {
   Future<Paging> fetchHeadline(int page, int pageSize);

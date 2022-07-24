@@ -1,5 +1,5 @@
-import 'package:getx_clean_architecture/data/models/article_model.dart';
-import 'package:getx_clean_architecture/domain/entities/paging.dart';
+import 'article_model.dart';
+import '../../domain/entities/paging.dart';
 
 class PagingModel extends Paging {
   PagingModel({

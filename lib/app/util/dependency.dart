@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/data/repositories/auth_repository.dart';
-import 'package:getx_clean_architecture/data/repositories/article_repository.dart';
+
+import '../../data/repositories/article_repository.dart';
+import '../../data/repositories/auth_repository.dart';
 
 class DependencyCreator {
   static init() {

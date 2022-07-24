@@ -1,6 +1,6 @@
-import 'package:getx_clean_architecture/data/models/paging_model.dart';
-import 'package:getx_clean_architecture/data/providers/network/apis/article_api.dart';
-import 'package:getx_clean_architecture/domain/repositories/article_repository.dart';
+import '../models/paging_model.dart';
+import '../providers/network/apis/article_api.dart';
+import '../../domain/repositories/article_repository.dart';
 
 class ArticleRepositoryIml extends ArticleRepository {
   @override

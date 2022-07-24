@@ -1,4 +1,4 @@
-import 'package:getx_clean_architecture/domain/entities/article.dart';
+import 'article.dart';
 
 class Paging {
   Paging({

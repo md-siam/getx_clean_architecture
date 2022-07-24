@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/domain/entities/user.dart';
+import '../../domain/entities/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 enum _Key {

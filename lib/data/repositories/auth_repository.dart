@@ -1,5 +1,5 @@
-import 'package:getx_clean_architecture/domain/entities/user.dart';
-import 'package:getx_clean_architecture/domain/repositories/auth_repository.dart';
+import '../../domain/entities/user.dart';
+import '../../domain/repositories/auth_repository.dart';
 
 class AuthenticationRepositoryIml extends AuthenticationRepository {
   @override

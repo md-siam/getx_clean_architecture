@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/app/config/app_colors.dart';
-import 'package:getx_clean_architecture/app/config/app_text_styles.dart';
-import 'package:getx_clean_architecture/presentation/controllers/auth/auth_controller.dart';
+import '../../../app/config/app_colors.dart';
+import '../../../app/config/app_text_styles.dart';
+import '../../controllers/auth/auth_controller.dart';
 
 class ProfilePage extends GetView<AuthController> {
   @override

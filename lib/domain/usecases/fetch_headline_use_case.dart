@@ -1,6 +1,6 @@
-import 'package:getx_clean_architecture/app/core/usecases/pram_usecase.dart';
-import 'package:getx_clean_architecture/domain/entities/paging.dart';
-import 'package:getx_clean_architecture/domain/repositories/article_repository.dart';
+import '../../app/core/usecases/pram_usecase.dart';
+import '../entities/paging.dart';
+import '../repositories/article_repository.dart';
 import 'package:tuple/tuple.dart';
 
 class FetchHeadlineUseCase extends ParamUseCase<Paging, Tuple2<int, int>> {

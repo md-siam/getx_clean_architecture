@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:getx_clean_architecture/data/providers/network/api_endpoint.dart';
-import 'package:getx_clean_architecture/data/providers/network/api_provider.dart';
-import 'package:getx_clean_architecture/data/providers/network/api_request_representable.dart';
+import '../api_endpoint.dart';
+import '../api_provider.dart';
+import '../api_request_representable.dart';
 
 enum ArticleType { fetchHeadline, fetchNews }
 

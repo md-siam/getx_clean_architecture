@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/app/config/app_colors.dart';
-import 'package:getx_clean_architecture/app/types/tab_type.dart';
-import 'package:getx_clean_architecture/presentation/controllers/auth/auth_controller.dart';
-import 'package:getx_clean_architecture/presentation/controllers/headline/headline_binding.dart';
-import 'package:getx_clean_architecture/presentation/controllers/news/news_binding.dart';
-import 'package:getx_clean_architecture/presentation/pages/headline/headline_page.dart';
-import 'package:getx_clean_architecture/presentation/pages/news/news_page.dart';
-import 'package:getx_clean_architecture/presentation/pages/profile/profile_page.dart';
+import '../../../app/config/app_colors.dart';
+import '../../../app/types/tab_type.dart';
+import '../../controllers/auth/auth_controller.dart';
+import '../../controllers/headline/headline_binding.dart';
+import '../../controllers/news/news_binding.dart';
+import '../headline/headline_page.dart';
+import '../news/news_page.dart';
+import '../profile/profile_page.dart';
 
 class HomePage extends GetView<AuthController> {
   @override

@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/app/types/category_type.dart';
-import 'package:getx_clean_architecture/presentation/controllers/news/news_controller.dart';
-import 'package:getx_clean_architecture/presentation/pages/detail/detail_page.dart';
-import 'package:getx_clean_architecture/presentation/pages/headline/views/article_cell.dart';
+import '../../../app/types/category_type.dart';
+import '../../controllers/news/news_controller.dart';
+import '../detail/detail_page.dart';
+import '../headline/views/article_cell.dart';
 
 class NewsPage extends StatefulWidget {
   @override
