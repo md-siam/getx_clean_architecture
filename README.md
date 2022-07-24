@@ -1,12 +1,15 @@
 # GetX Clean Architecture
+
 A Flutter Clean Architecture Using [GetX](https://github.com/jonataslaw/getx).
- 
+
 This repo is forked from: https://github.com/phamdinhduc795397/flutter-getx-clean-architecture
 
 ## Work Flow
-![alt text](/assets/Clean-Architecture-Flutter-Diagram.png?raw=true)
+
+![alt text](screenshots/Clean-Architecture-Flutter-Diagram.png?raw=true)
 
 ## Project Structure
+
 ```
     lib
     ├── app
@@ -88,5 +91,6 @@ This repo is forked from: https://github.com/phamdinhduc795397/flutter-getx-clea
 ```
 
 ## Features
+
 - Integrating Unit Test.
 - Create an easy to use API provider with [GetConnect](https://github.com/jonataslaw/getx#getconnect).
